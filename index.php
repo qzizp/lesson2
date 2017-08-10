@@ -2,7 +2,7 @@
 
   $x = rand(0,100);
 
-  echo "Число ".$x;
+  // echo "Число ".$x;
 
   $first = 1;
   $second = 1;
