@@ -1,8 +1,9 @@
 <?php 
 
-  $x = rand(0,100);
+  $x = $_GET['x'];
 
-  // echo "Число ".$x;
+  echo "Число ".$x;
+  echo PHP_EOL;
 
   $first = 1;
   $second = 1;
@@ -16,7 +17,7 @@
       break;
     } else {
       $third = $first;
-      $first + $second;
+      $first = $first + $second;
       $second = $third;
     }
   }
